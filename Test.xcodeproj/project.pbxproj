@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AFCEF87A248E2F38007F48FC /* TestDoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AFCEF87B248E2F38007F48FC /* Build configuration list for PBXAggregateTarget "TestDoc" */;
+			buildPhases = (
+				AFCEF87F248E2F4A007F48FC /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TestDoc;
+			productName = TestDoc;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		AF241B2D2488F4F80048DFCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF241B2C2488F4F80048DFCB /* AppDelegate.m */; };
 		AF241B302488F4F80048DFCB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF241B2F2488F4F80048DFCB /* SceneDelegate.m */; };
@@ -16,6 +30,9 @@
 		AF241B3E2488F4FB0048DFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF241B3D2488F4FB0048DFCB /* main.m */; };
 		AF241B482488F4FB0048DFCB /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF241B472488F4FB0048DFCB /* TestTests.m */; };
 		AF241B532488F4FB0048DFCB /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF241B522488F4FB0048DFCB /* TestUITests.m */; };
+		AF241B622488F5BA0048DFCB /* imgs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF241B612488F5BA0048DFCB /* imgs.bundle */; };
+		AF70C5282488FD9E0046CE2F /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = AF70C5272488FD9E0046CE2F /* vip.png */; };
+		AFCEF879248E246E007F48FC /* NZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCEF878248E246E007F48FC /* NZMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +71,11 @@
 		AF241B4E2488F4FB0048DFCB /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF241B522488F4FB0048DFCB /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		AF241B542488F4FB0048DFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF241B612488F5BA0048DFCB /* imgs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = imgs.bundle; sourceTree = "<group>"; };
+		AF70C5272488FD9E0046CE2F /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip.png; sourceTree = "<group>"; };
+		AF7D81432497243000484A60 /* new_liveingN.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = new_liveingN.gif; sourceTree = "<group>"; };
+		AFCEF877248E246E007F48FC /* NZMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NZMViewController.h; sourceTree = "<group>"; };
+		AFCEF878248E246E007F48FC /* NZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +126,22 @@
 		AF241B2A2488F4F80048DFCB /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				AF7D81432497243000484A60 /* new_liveingN.gif */,
+				AF70C5272488FD9E0046CE2F /* vip.png */,
 				AF241B2B2488F4F80048DFCB /* AppDelegate.h */,
 				AF241B2C2488F4F80048DFCB /* AppDelegate.m */,
 				AF241B2E2488F4F80048DFCB /* SceneDelegate.h */,
 				AF241B2F2488F4F80048DFCB /* SceneDelegate.m */,
 				AF241B312488F4F80048DFCB /* ViewController.h */,
 				AF241B322488F4F80048DFCB /* ViewController.m */,
+				AFCEF877248E246E007F48FC /* NZMViewController.h */,
+				AFCEF878248E246E007F48FC /* NZMViewController.m */,
 				AF241B342488F4F80048DFCB /* Main.storyboard */,
 				AF241B372488F4FB0048DFCB /* Assets.xcassets */,
 				AF241B392488F4FB0048DFCB /* LaunchScreen.storyboard */,
 				AF241B3C2488F4FB0048DFCB /* Info.plist */,
 				AF241B3D2488F4FB0048DFCB /* main.m */,
+				AF241B612488F5BA0048DFCB /* imgs.bundle */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -213,6 +240,9 @@
 						CreatedOnToolsVersion = 11.1;
 						TestTargetID = AF241B272488F4F80048DFCB;
 					};
+					AFCEF87A248E2F38007F48FC = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = AF241B232488F4F80048DFCB /* Build configuration list for PBXProject "Test" */;
@@ -231,6 +261,7 @@
 				AF241B272488F4F80048DFCB /* Test */,
 				AF241B422488F4FB0048DFCB /* TestTests */,
 				AF241B4D2488F4FB0048DFCB /* TestUITests */,
+				AFCEF87A248E2F38007F48FC /* TestDoc */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +274,8 @@
 				AF241B3B2488F4FB0048DFCB /* LaunchScreen.storyboard in Resources */,
 				AF241B382488F4FB0048DFCB /* Assets.xcassets in Resources */,
 				AF241B362488F4F80048DFCB /* Main.storyboard in Resources */,
+				AF241B622488F5BA0048DFCB /* imgs.bundle in Resources */,
+				AF70C5282488FD9E0046CE2F /* vip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +295,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AFCEF87F248E2F4A007F48FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "appledoc \\\n--output ./apiDoc2 \\\n--project-name \"Test\" \\\n--project-company \"maoer\" \\\n--no-create-docset \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--no-warn-undocumented-object \\\n--no-warn-undocumented-member  \\\n./\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF241B242488F4F80048DFCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +323,7 @@
 				AF241B332488F4F80048DFCB /* ViewController.m in Sources */,
 				AF241B2D2488F4F80048DFCB /* AppDelegate.m in Sources */,
 				AF241B3E2488F4FB0048DFCB /* main.m in Sources */,
+				AFCEF879248E246E007F48FC /* NZMViewController.m in Sources */,
 				AF241B302488F4F80048DFCB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +599,24 @@
 			};
 			name = Release;
 		};
+		AFCEF87C248E2F38007F48FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFCEF87D248E2F38007F48FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,6 +652,15 @@
 			buildConfigurations = (
 				AF241B5E2488F4FB0048DFCB /* Debug */,
 				AF241B5F2488F4FB0048DFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCEF87B248E2F38007F48FC /* Build configuration list for PBXAggregateTarget "TestDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCEF87C248E2F38007F48FC /* Debug */,
+				AFCEF87D248E2F38007F48FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

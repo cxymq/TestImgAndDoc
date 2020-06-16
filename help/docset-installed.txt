@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/nazimai/Library/Developer/Shared/Documentation/DocSets/maoer.Test.docset
+Time: 2020-06-08 09:11:06 +0000

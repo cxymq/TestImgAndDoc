@@ -14,6 +14,12 @@
 
 @implementation AppDelegate
 
+/**
+ * willConnectToSession
+ * @param application 应用
+ * @param launchOptions 启动参数
+ * @return 布尔值
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
