@@ -1,4 +1,0 @@
-Documentation set was installed to Xcode!
-
-Path: /Users/nazimai/Library/Developer/Shared/Documentation/DocSets/com.公司名称.工程名称.工程名称.docset
-Time: 2020-06-08 09:21:05 +0000

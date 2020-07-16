@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [CATransaction begin];
+    self.view.backgroundColor = UIColor.lightGrayColor;
+//    [CATransaction commit];
+//    while (YES) {
+        
+//    }
 }
 
 - (void)test01 {
